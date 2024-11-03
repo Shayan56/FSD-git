@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#A3D8F4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose food item"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:background="#FFD700"
+        android:padding="8dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkBoxPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pizza" />
+
+        <CheckBox
+            android:id="@+id/checkBoxWaffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waffle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkBoxPancakes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pancakes" />
+
+        <CheckBox
+            android:id="@+id/checkBoxIcecream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Icecream" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/checkBoxBiryani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biryani" />
+
+        <CheckBox
+            android:id="@+id/checkBoxBurger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL PRICE"
+        android:background="#8A2BE2"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 0.0"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textFinalAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Amount: Rs. 0.0"
+        android:textSize="18sp"
+        android:layout_gravity="center"/>
+</LinearLayout>
